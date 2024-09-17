@@ -9,4 +9,14 @@ public class IntegerDataObject implements DataObject {
     public JPanel getContext() {
         return null;
     }
+
+    @Override
+    public int getTypeIconIndex() {
+        return 0;
+    }
+
+    @Override
+    public String getDisplayName() {
+        return null;
+    }
 }
